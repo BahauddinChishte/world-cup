@@ -1,0 +1,354 @@
+/*---------- Font-for Body---------- */
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@500&family=Hind+Siliguri&family=Inter&family=Poppins:wght@400;500&display=swap');
+
+/*---------- Font-Styele for Body----- */
+body {
+font-family: 'Edu QLD Beginner', cursive;
+font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+/* --------------First-Section------------- */
+
+.hero-section{
+
+   width: 100%;
+
+}
+
+.hero-title{
+    font-size: 65px;
+    font-weight: 650;
+    line-height: 120%;
+
+}
+.hero-content{
+   
+display: flex;
+align-content: center;
+background-color: rgb(0, 0, 0);
+color: white;
+margin: 30px 110px;
+padding-left:100px;
+border-radius: 20px;
+margin-bottom: 100px;
+
+}
+.left-block{
+ padding-left: 20px;
+padding-right: 10px;
+
+}
+
+.right-block{
+    margin-left: 10%;
+    margin-bottom: 0px;
+}
+.right-block img{
+    
+width: 120%;
+display: block;
+position:relative;
+margin: 0px;
+padding: 0px;
+
+
+}
+.button {
+    border-radius: 7px;
+    background-color: red;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 23px;
+    padding: 7px 15px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 7px;
+   
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 20px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+  /* ----------------------------
+         Blog Section 
+----------------------------> */
+
+
+
+
+
+.left-side{
+    margin-left:110px;
+    
+    background-color: black;
+    margin-bottom: 900px ;
+    padding: 50px 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    
+    
+
+
+}
+
+.button1{
+  
+
+    border: 4px solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 10px  15px;
+    
+    
+}
+.button1:hover{
+    
+    color: whitesmoke;
+    padding: 10px  15px;
+    background-color: red;
+
+    border-color: red;
+    
+}
+
+.button1 a{
+    
+text-decoration: none;
+color: black;
+
+}
+
+.button1 .button1-span:hover{
+color: white;
+}
+
+
+
+.button2{
+    border: solid;
+    border-radius: 10px;
+    
+    padding: 10px 41px;
+    margin-bottom: 9px;
+
+}
+
+.button2:hover{
+    
+    padding: 10px 41px;
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+.button3{
+  
+    text-align: center;
+    border: solid 0px;
+    padding: 10px 60px;
+    
+    
+    color: white;
+    border-radius: 10px; 
+    margin-bottom: 5px;
+    margin-left: 2.5px;
+    background-color: red;
+    
+    
+}
+
+
+
+ .blog-section{
+    display: flex;
+    margin-right: 30px;
+    margin-right: 45px;
+ }
+ .blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+ }
+
+ .blog{
+    
+  padding-right: 10px;
+   margin: 0px;
+   width: 80%;
+   column-gap: 10px;
+   margin-bottom: 30px;
+   background-color: rgb(255, 255, 255);
+   border: #962727;
+   /* img-shadow */
+   filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+    background-color: #ffffff;
+    border-left: 1px solid rgb(221, 224, 231);
+    border-right: 1px solid rgb(221, 224, 231);
+    border-bottom: 1px solid rgb(221, 224, 231);
+
+    padding: px 11px;
+    border-radius: 5px;
+   
+   
+
+ }
+
+ .blog-info{
+    margin-top: -10px;
+    padding: 5px 10px;
+    border: 100px;
+    border-color: black;
+ }
+ .blog img{
+    display: block;
+    margin-right: px;
+    padding-right: 0px;
+    width: 103.5%;
+    
+ }
+ .transfer-button{
+    
+    padding: 4px 13px;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    border-color: rgb(199, 18, 18);
+    border-radius: 4px;
+    text-align: center;
+ }
+
+ .blog-title{
+    margin-top: 10px;
+    width: 80%;
+    font-weight: 500;
+ }
+ .span{
+    margin-top: -5px;
+    display: flex;
+    gap: 50px;
+    
+    
+ }
+ .span1, .span2{
+    align-items: center;
+   display: flex;
+ }
+ 
+
+ /* --------------Footer-Style----------- */
+
+ .footer{
+    background-color: black;
+    margin: -10px;
+ }
+ 
+ .footer h1{
+ text-align: center;
+ align-items: center;
+ align-content: center;
+ justify-content: center;
+ color: white;
+ padding-top: 50px;
+ padding-bottom: 40px;
+ }
+ hr{
+    display: block ;
+    border: none;
+    height: 0.2px;
+    color: #ffffff;
+    background-color: #ffffff77;
+ }
+
+
+ .footer-link a{
+
+    
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+    padding: 20px;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .footer-link a:hover{
+    color: red;
+ }
+
+ .footer-link{
+    
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+ }
+
+ 
+
+ .social-icon{
+    
+  
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+ }
+ .fa-brands {
+    display: inline-block;
+    position:relative;
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 15px;
+    border-radius: 50%;
+  }
+  .fa-brands:hover {
+    opacity: 0.7;
+  
+ 
+  }
+
+  .fa-facebook-f {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter{
+    background: #55ACEE;
+  color: white;
+}
+.fa-linkedin-in{
+    background: #007bb5;
+  color: white;
+}
