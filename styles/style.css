@@ -17,9 +17,10 @@ font-family: 'Poppins', sans-serif;
 }
 
 .hero-title{
-    font-size: 65px;
+   font-size: 60px;
     font-weight: 650;
     line-height: 120%;
+    display: inline;
 
 }
 .hero-content{
@@ -35,9 +36,16 @@ margin-bottom: 100px;
 
 }
 .left-block{
+   padding-top: 5em;
  padding-left: 20px;
 padding-right: 10px;
 
+}
+.hero-paragraph{
+   font-size: 14px;
+   font-weight:normal;
+   color: rgb(210, 191, 191);
+   margin-bottom: 2em;
 }
 
 .right-block{
@@ -93,6 +101,14 @@ padding: 0px;
     opacity: 1;
     right: 0;
   }
+  
+   
+
+
+
+
+
+
 
 
 
@@ -336,6 +352,7 @@ color: white;
   }
   .fa-brands:hover {
     opacity: 0.7;
+    background-color: rgb(0, 0, 0);
   
  
   }
@@ -352,3 +369,9 @@ color: white;
     background: #007bb5;
   color: white;
 }
+
+
+/*------------- Media-Quries------------- */
+
+/*--------------Phone-device------------- */
+

@@ -17,9 +17,10 @@ font-family: 'Poppins', sans-serif;
 }
 
 .hero-title{
-    font-size: 65px;
+   font-size: 60px;
     font-weight: 650;
     line-height: 120%;
+    display: inline;
 
 }
 .hero-content{
@@ -37,7 +38,14 @@ margin-bottom: 100px;
 .left-block{
  padding-left: 20px;
 padding-right: 10px;
+padding-top: 5em;
 
+}
+.hero-paragraph{
+   font-size: 14px;
+   font-weight:normal;
+   color: rgb(210, 191, 191);
+   margin-bottom: 2em;
 }
 
 .right-block{
@@ -258,7 +266,7 @@ color: white;
   .fa-brands:hover {
     opacity: 0.7;
   
- 
+ background-color: black;
   }
 
   .fa-facebook-f {
